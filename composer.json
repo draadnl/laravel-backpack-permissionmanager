@@ -16,6 +16,12 @@
         "manage users",
         "users roles admin"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/draadnl/laravel-backpack-crud.git"
+        }
+    ],
     "homepage": "https://github.com/laravel-backpack/permissionmanager",
     "license": "proprietary",
     "authors": [
@@ -34,7 +40,7 @@
     ],
     "require": {
         "spatie/laravel-permission": "^3.0",
-        "backpack/crud": "^3.4.0"
+        "backpack/crud": "dev-three-six"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*",
